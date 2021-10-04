@@ -158,7 +158,7 @@ library(openxlsx) #入出力(write.xlsx)
 library(writexl) #出力
 library(multcomp)
 ################################################################################
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/Other")
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/Other")
 anno <- read_excel("anno.xlsx", 1) #シート1入力
 ################################################################################
 #統計解析関数(引数2)
@@ -378,7 +378,7 @@ fun2 <- function(x,y){
 }
 ################################################################################
 #Heart
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/Heart")
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/Heart")
 data <- read_excel("SWATH.xlsx", 2) #swath data
 ExpDesign <- read_excel("SWATH.xlsx", 3) #DEP.packcage SE file
 fun2(data, ExpDesign)

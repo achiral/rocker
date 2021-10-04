@@ -2,11 +2,11 @@
 #https://www.kimoton.com/entry/2017/09/01/112812
 ##########################################################
 rm(list = ls(all.names = TRUE))
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/AMY") #作業ディレクトリ設定
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/HIP") #作業ディレクトリ設定
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/NAc") #作業ディレクトリ設定
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC") #作業ディレクトリ設定
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/STR") #作業ディレクトリ設定
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/AMY") #作業ディレクトリ設定
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/HIP") #作業ディレクトリ設定
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/NAc") #作業ディレクトリ設定
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC") #作業ディレクトリ設定
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/STR") #作業ディレクトリ設定
 getwd()
 dir() 
 ##########################################################
@@ -98,7 +98,7 @@ write.xlsx(smp, "intersect.xlsx")
 library(readxl) #エクセル入力(read_excel)
 ##########################################################
 rm(list = ls(all.names = TRUE))
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/AMY")
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/AMY")
 aP <- read_excel("DEPtwANOVA.xlsx", 1)
 aC<- read_excel("DEPtwANOVA.xlsx", 2)
 aPxC <- read_excel("DEPtwANOVA.xlsx", 3)
@@ -141,7 +141,7 @@ venn.diagram(
   rotation = 1,                  #
 )
 ##########################################################
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/HIP") #作業ディレクトリ設定
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/HIP") #作業ディレクトリ設定
 hP <- read_excel("DEPtwANOVA.xlsx", 1)
 hC<- read_excel("DEPtwANOVA.xlsx", 2)
 hPxC <- read_excel("DEPtwANOVA.xlsx", 3)
@@ -184,7 +184,7 @@ venn.diagram(
   rotation = 1,                  #
 )
 ##########################################################
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/NAc") #作業ディレクトリ設定
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/NAc") #作業ディレクトリ設定
 nP <- read_excel("DEPtwANOVA.xlsx", 1)
 nC<- read_excel("DEPtwANOVA.xlsx", 2)
 nPxC <- read_excel("DEPtwANOVA.xlsx", 3)
@@ -227,7 +227,7 @@ venn.diagram(
   rotation = 1,                  #
 )
 ##########################################################
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC") #作業ディレクトリ設定
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC") #作業ディレクトリ設定
 pP <- read_excel("DEPtwANOVA.xlsx", 1)
 pC<- read_excel("DEPtwANOVA.xlsx", 2)
 pPxC <- read_excel("DEPtwANOVA.xlsx", 3)
@@ -270,7 +270,7 @@ venn.diagram(
   rotation = 1,                  #
 )
 ##########################################################
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/STR") #作業ディレクトリ設定
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/STR") #作業ディレクトリ設定
 sP <- read_excel("DEPtwANOVA.xlsx", 1)
 sC<- read_excel("DEPtwANOVA.xlsx", 2)
 sPxC <- read_excel("DEPtwANOVA.xlsx", 3)
@@ -317,7 +317,7 @@ venn.diagram(
 ##########################################################
 ##########################################################
 ##########################################################
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/ALL")
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/ALL")
 list_P <- list("AMY" = aP$Protein.IDs, "HIP" = hP$Protein.IDs, "NAc" = nP$Protein.IDs, "PFC" = pP$Protein.IDs, "STR" = sP$Protein.IDs)
 list_C <- list("AMY" = aC$Protein.IDs, "HIP" = hC$Protein.IDs, "NAc" = nC$Protein.IDs, "PFC" = pC$Protein.IDs, "STR" = sC$Protein.IDs)
 list_PxC <- list("AMY" = aPxC$Protein.IDs, "HIP" = hPxC$Protein.IDs, "NAc" = nPxC$Protein.IDs, "PFC" = pPxC$Protein.IDs, "STR" = sPxC$Protein.IDs)

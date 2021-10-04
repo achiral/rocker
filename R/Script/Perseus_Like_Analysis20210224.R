@@ -88,7 +88,7 @@ write_xlsx(xxx, "anno.xlsx", format_headers = FALSE)
 ################################################################################
 ################################################################################
 #excel入力
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/Other")
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/Other")
 anno <- read_excel("anno.xlsx", 1) #シート1入力
 ###########################################################################
 #生物種レベルのアノテーション（OrgDb）
@@ -192,10 +192,10 @@ library(writexl) #出力
 library(multcomp)
 ##############################################################
 #rm(list = ls(all.names = TRUE))
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/Other")
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/Other")
 anno <- read_excel("anno.xlsx", 1) #シート1入力
 #anno2 <- anno %>% select(GeneName, `Peak Name`, Description, OS, GN, PE, SV)
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/AMY")
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/AMY")
 getwd()
 dir()
 ##############################################################
@@ -459,7 +459,7 @@ write_xlsx(sheets2, "DEPtwANOVA.xlsx", format_headers = FALSE)
 ################################################################################
 ################################################################################
 ################################################################################
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/HIP")
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/HIP")
 getwd()
 dir()
 ##############################################################
@@ -678,9 +678,9 @@ write_xlsx(sheets2, "DEPtwANOVA.xlsx", format_headers = FALSE)
 ################################################################################
 ################################################################################
 ################################################################################
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/NAc")
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC")
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/STR")
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/NAc")
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC")
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/STR")
 getwd()
 dir()
 ##############################################################
@@ -899,7 +899,7 @@ write_xlsx(sheets2, "DEPtwANOVA.xlsx", format_headers = FALSE)
 ################################################################################
 ################################################################################
 ################################################################################
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC")
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC")
 getwd()
 dir()
 ##############################################################
@@ -1118,7 +1118,7 @@ write_xlsx(sheets2, "DEPtwANOVA.xlsx", format_headers = FALSE)
 ################################################################################
 ################################################################################
 ################################################################################
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/STR")
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/STR")
 getwd()
 dir()
 ##############################################################

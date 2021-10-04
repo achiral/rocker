@@ -50,11 +50,11 @@ dirname = dir.choose()
 ################################################################################
 #Annotation table作�??
 #setwd("~/Dropbox/0_Work/R/Perseus_Like_Analysis/Heart")
-# setwd("C:/Users/akira/Dropbox/My PC (DESKTOP-HJ2V1AA)/Desktop/PCPCLZ_SWATH/R/Perseus_Like_Analysis20210908/Heart")
+# setwd("C:/Users/user/Dropbox/My PC (DESKTOP-HJ2V1AA)/Desktop/PCPCLZ_SWATH/R/Perseus_Like_Analysis20210908/Heart")
 setwd("/Users/ay/Dropbox/GitHub/local/Docker/SWATHR/PCPCLZ_SWATH/R/Perseus_Like_Analysis20210908/Heart")
 
 dat_heart <- read_excel("SWATH.xlsx", 2)
-setwd("C:/Users/akira/Dropbox/My PC (DESKTOP-HJ2V1AA)/Desktop/PCPCLZ_SWATH/R/Perseus_Like_Analysis20210908/Other2")
+setwd("C:/Users/user/Dropbox/My PC (DESKTOP-HJ2V1AA)/Desktop/PCPCLZ_SWATH/R/Perseus_Like_Analysis20210908/Other2")
 #setwd("~/Dropbox/0_Work/R/Perseus_Like_Analysis/Other2")
 getwd()
 dir() 
@@ -175,8 +175,8 @@ library(writexl) #出�?
 library(multcomp)
 ################################################################################
 
-setwd("C:/Users/akira/Dropbox/My PC (DESKTOP-HJ2V1AA)/Desktop/PCPCLZ_SWATH/R/Perseus_Like_Analysis20210908/Other2")
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/Other")
+setwd("C:/Users/user/Dropbox/My PC (DESKTOP-HJ2V1AA)/Desktop/PCPCLZ_SWATH/R/Perseus_Like_Analysis20210908/Other2")
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/Other")
 anno <- read_excel("anno.xlsx", 1) #シー�?1入�?
 ################################################################################
 #統計解析関数(引数2)
@@ -396,8 +396,8 @@ fun2 <- function(x,y){
 }
 ################################################################################
 #Heart
-setwd("C:/Users/akira/Dropbox/My PC (DESKTOP-HJ2V1AA)/Desktop/PCPCLZ_SWATH/R/Perseus_Like_Analysis20210908/Heart")
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/Heart")
+setwd("C:/Users/user/Dropbox/My PC (DESKTOP-HJ2V1AA)/Desktop/PCPCLZ_SWATH/R/Perseus_Like_Analysis20210908/Heart")
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/Heart")
 data <- read_excel("SWATH.xlsx", 2) #swath data
 ExpDesign <- read_excel("SWATH.xlsx", 3) #DEP.packcage SE file
 fun2(data, ExpDesign)

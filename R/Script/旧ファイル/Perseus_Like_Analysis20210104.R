@@ -30,14 +30,14 @@ library(multcomp) #多重比較検定
 #library(BH) #FDR
 #############################################################
 rm(list = ls(all.names = TRUE))
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/Other") #作業ディレクトリ設定
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/Other") #作業ディレクトリ設定
 anno <- read_excel("anno.xlsx", 1) #シート1入力
 #anno2 <- anno %>% select(GeneName, `Peak Name`, Description, OS, GN, PE, SV)
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/AMY") #作業ディレクトリ設定
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/HIP") #作業ディレクトリ設定
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/NAc") #作業ディレクトリ設定
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC") #作業ディレクトリ設定
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/STR") #作業ディレクトリ設定
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/AMY") #作業ディレクトリ設定
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/HIP") #作業ディレクトリ設定
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/NAc") #作業ディレクトリ設定
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC") #作業ディレクトリ設定
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/STR") #作業ディレクトリ設定
 getwd()#作業ディレクトリ確認
 dir() #作業ディレクトリ内のファイル表示
 ##############################################################

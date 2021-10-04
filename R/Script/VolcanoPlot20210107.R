@@ -1,8 +1,8 @@
 #Volcano Plot
 #############################################################
 #作業ディレクトリ設定
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Directory_DEF")
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Directory_PCP")
+#setwd("/Users/user/Dropbox/0_Work/R/Directory_DEF")
+#setwd("/Users/user/Dropbox/0_Work/R/Directory_PCP")
 setwd("~/Dropbox/My Mac (MacBook-Pro.local)/Desktop/Directory_PCP")
 getwd() #作業ディレクトリ確認
 dir() #作業ディレクトリ内のファイル表示

@@ -23,14 +23,14 @@ dir.choose <- function() {
 #filename = file.choose()
 #############################################################
 rm(list = ls(all.names = TRUE))
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/Other")
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/Other")
 anno <- read_excel("anno.xlsx", 1) #シート1入力
 #anno2 <- anno %>% select(GeneName, `Peak Name`, Description, OS, GN, PE, SV)
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/AMY")
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/HIP")
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/NAc")
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC")
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/STR")
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/AMY")
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/HIP")
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/NAc")
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC")
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/STR")
 getwd()
 dir()
 ##############################################################

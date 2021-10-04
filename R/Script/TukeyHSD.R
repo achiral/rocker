@@ -2,7 +2,7 @@
 #How to perform Tukey HSD.test() on list of dataframes?
 #https://stackoverflow.com/questions/49168959/how-to-perform-tukey-hsd-test-on-list-of-dataframes
 ##############################################################
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/TukeyHSD") #作業ディレクトリ設定
+setwd("/Users/user/Dropbox/0_Work/R/TukeyHSD") #作業ディレクトリ設定
 getwd()#作業ディレクトリ確認
 dir() #作業ディレクトリ内のファイル表示
 ##############################################################

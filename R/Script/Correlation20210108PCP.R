@@ -17,7 +17,7 @@ data7 <- read_excel("Stat.xlsx", sheet = 7) #シート7の読み込み
 data6_mod1 <- data6 %>%
   mutate(UpDown = if_else(log2FCPCP2h < 0 & log2FCPCP24h < 0, "DD", if_else(log2FCPCP2h >= 0 & log2FCPCP24h >= 0, "UU", "UD")),
   )
-write.table (data6_mod1, file = "/Users/akira_yoshimi/Dropbox/My Mac (MacBook-Pro.local)/Desktop/Directory_PCP/output.txt", sep = "\t",
+write.table (data6_mod1, file = "/Users/user/Dropbox/My Mac (MacBook-Pro.local)/Desktop/Directory_PCP/output.txt", sep = "\t",
 quote = FALSE, row.names = FALSE, append = FALSE)
 str(data6_mod1) #データ構造の確認
 #protein_codingでフィルタ:エクセル置換で-を_に修正済み################################
@@ -30,7 +30,7 @@ data6_mod2 <- data6_mod1 %>%
 data7_mod1 <- data7 %>%
   mutate(UpDown = if_else(log2FCPCP2h < 0 & log2FCPCP24h < 0, "DD", if_else(log2FCPCP2h >= 0 & log2FCPCP24h >= 0, "UU", "UD")),
   )
-write.table (data7_mod1, file = "/Users/akira_yoshimi/Dropbox/My Mac (MacBook-Pro.local)/Desktop/Directory_PCP/output.txt", sep = "\t",
+write.table (data7_mod1, file = "/Users/user/Dropbox/My Mac (MacBook-Pro.local)/Desktop/Directory_PCP/output.txt", sep = "\t",
              quote = FALSE, row.names = FALSE, append = FALSE)
 str(data7_mod1) #データ構造の確認
 #protein_codingでフィルタ:エクセル置換で-を_に修正済み################################

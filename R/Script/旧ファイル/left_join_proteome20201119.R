@@ -62,27 +62,27 @@ rm(list = ls(all.names = TRUE))
 #AMY
 #setwd("~/Dropbox/My Mac (MacBook-Pro.local)/Desktop/R/AMY")
 #vdat_a <- read_excel("AMY.xlsx", 1)
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/AMY") 
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/AMY") 
 #dat_as <- read_excel("stat.xlsx", 1)
 #HIP
 setwd("~/Dropbox/My Mac (MacBook-Pro.local)/Desktop/R/HIP")
 dat_h <- read_excel("HIP.xlsx", 1)
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/HIP") 
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/HIP") 
 dat_hs <- read_excel("stat.xlsx", 1)
 #NAc
 setwd("~/Dropbox/My Mac (MacBook-Pro.local)/Desktop/R/NAc")
 dat_n <- read_excel("NAc.xlsx", 1)
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/NAc") 
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/NAc") 
 dat_ns <- read_excel("stat.xlsx", 1)
 #PFC
 setwd("~/Dropbox/My Mac (MacBook-Pro.local)/Desktop/R/PFC")
 dat_p <- read_excel("PFC.xlsx", 1)
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC") 
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC") 
 dat_ps <- read_excel("stat.xlsx", 1)
 #STR
 #setwd("~/Dropbox/My Mac (MacBook-Pro.local)/Desktop/R/STR")
 #dat_s <- read_excel("STR.xlsx", 1)
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/STR") 
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/STR") 
 #dat_ss <- read_excel("stat.xlsx", 1)
 #統合left_join
 #dat_a2 <- left_join(dat_a, dat_as, by = c("Group" = "Description"))

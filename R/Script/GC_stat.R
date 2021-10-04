@@ -35,7 +35,7 @@
 #回帰分析
 #############################################################
 rm(list = ls(all = TRUE))
-setwd("/Users/akira_yoshimi/Dropbox/My Mac (AkiranoMacBook.local)/Desktop/GC_stat")
+setwd("/Users/user/Dropbox/My Mac (AkiranoMacBook.local)/Desktop/GC_stat")
 getwd()
 #############################################################
 #Excelファイル読み込み

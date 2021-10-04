@@ -2,7 +2,7 @@
 #https://github.com/unistbig/GScluster
 #############################################################
 #作業ディレクトリ設定
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/GScluster")
+setwd("/Users/user/Dropbox/0_Work/R/GScluster")
 #作業ディレクトリ確認
 getwd()
 #作業ディレクトリ内のファイル表示

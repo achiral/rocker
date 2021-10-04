@@ -3,7 +3,7 @@
 #重複削除
 #https://a-habakiri.hateblo.jp/entry/2016/11/29/215013
 #############################################################
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/SWATH") #作業ディレクトリ設定
+setwd("/Users/user/Dropbox/0_Work/R/SWATH") #作業ディレクトリ設定
 getwd() #作業ディレクトリ確認
 dir() #作業ディレクトリ内のファイル表示
 #############################################################

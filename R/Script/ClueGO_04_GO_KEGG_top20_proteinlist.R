@@ -19,7 +19,7 @@
 #https://qiita.com/U25CE/items/bf30ea2fcc79ba399dd0
 #############################################################
 #作業ディレクトリ設定
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/SWATH")
+setwd("/Users/user/Dropbox/0_Work/R/SWATH")
 #作業ディレクトリ確認
 getwd()
 #作業ディレクトリ内のファイル表示

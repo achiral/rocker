@@ -3,7 +3,7 @@
 #https://techblog.nhn-techorus.com/archives/6309
 #https://www.bioconductor.org/packages/release/bioc/html/DEP.html
 ##############################################################
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Imputation") #作業ディレクトリ設定
+setwd("/Users/user/Dropbox/0_Work/R/Imputation") #作業ディレクトリ設定
 #setwd("~/GoogleDrive/マイドライブ/0_Work/R/SWATH") #作業ディレクトリ設定
 getwd()#作業ディレクトリ確認
 dir() #作業ディレクトリ内のファイル表示

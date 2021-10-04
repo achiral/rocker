@@ -1,7 +1,7 @@
 #SWATH2stats
 ##############################################################
 rm(list = ls(all.names = TRUE))
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/SWATH2stats") #作業ディレクトリ設定
+setwd("/Users/user/Dropbox/0_Work/R/SWATH2stats") #作業ディレクトリ設定
 #setwd("~/GoogleDrive/マイドライブ/0_Work/R/SWATH") #作業ディレクトリ設定
 getwd()#作業ディレクトリ確認
 dir() #作業ディレクトリ内のファイル表示
@@ -140,7 +140,7 @@ data('Study_design', package='SWATH2stats')
 head(Study_design)
 
 # set working directory
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/SWATH2stats") #作業ディレクトリ設定
+#setwd("/Users/user/Dropbox/0_Work/R/SWATH2stats") #作業ディレクトリ設定
 # Define input data file (e.g. OpenSWATH_output_file.txt)
 #file.name <- 'OpenSWATH_output_file.txt'
 # File name for annotation file

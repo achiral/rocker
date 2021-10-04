@@ -14,7 +14,7 @@ cat('\014')
 path <- rstudioapi::getActiveDocumentContext()$path
 Encoding(path) <- "UTF-8"
 #setwd(dirname(path))
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/limma") #作業ディレクトリ設定
+setwd("/Users/user/Dropbox/0_Work/R/limma") #作業ディレクトリ設定
 cur_dir <- getwd()
 
 ## Installing Bioconductor packages

@@ -1,4 +1,4 @@
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/AMY") #作業ディレクトリ設定
+#setwd("/Users/user/Dropbox/0_Work/R/AMY") #作業ディレクトリ設定
 setwd("~/Google Drive/マイドライブ/0_Work/R/AMY")
 getwd()#作業ディレクトリ確認
 dir() #作業ディレクトリ内のファイル表示

@@ -37,7 +37,7 @@ library(org.Mm.eg.db)
 ###########################################################################
 #CSV入力
 library(readxl) #エクセル読み込み
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/Other")
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/Other")
 anno <- read_excel("anno.xlsx", 1) #シート1入力
 #library(tidyverse) #ライブラリtidyverse(ggplot2,dplyr),gcookbook読み込み
 id <- anno$`Protein.IDs`

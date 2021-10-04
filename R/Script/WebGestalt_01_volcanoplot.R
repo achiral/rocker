@@ -1,7 +1,7 @@
 #WebGestalt_01_volcanoplot.R
 #############################################################
 #作業ディレクトリ設定
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/SWATH")
+setwd("/Users/user/Dropbox/0_Work/R/SWATH")
 getwd() #作業ディレクトリ確認
 dir() #作業ディレクトリ内のファイル表示
 #############################################################

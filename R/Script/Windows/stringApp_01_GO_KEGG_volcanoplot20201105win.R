@@ -8,7 +8,7 @@
 #5_GO_KEGG_top50に含まれるDEP list作成 →別script
 #############################################################
 rm(list = ls(all.names = TRUE))
-setwd("C:/Users/akira/Dropbox/名城大学学部生共有フォルダ/(5年生)卒業論文,実験/R/Perseus_Like_Analysis_Win/AMY/2_Cytoscape")
+setwd("C:/Users/user/Dropbox/名城大学学部生共有フォルダ/(5年生)卒業論文,実験/R/Perseus_Like_Analysis_Win/AMY/2_Cytoscape")
 ##############################################################
 library(EnhancedVolcano)
 library(tidyverse) #ライブラリtidyverse(ggplot2,dplyr),gcookbook読み込み

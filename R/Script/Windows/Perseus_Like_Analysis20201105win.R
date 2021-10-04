@@ -1,6 +1,6 @@
 #Perseus_Like_Analysis
 #############################################################
-setwd("C:/Users/akira/Dropbox/名城大学学部生共有フォルダ/(5年生)卒業論文,実験/R/Perseus_Like_Analysis_Win/AMY")
+setwd("C:/Users/user/Dropbox/名城大学学部生共有フォルダ/(5年生)卒業論文,実験/R/Perseus_Like_Analysis_Win/AMY")
 getwd()#作業ディレクトリ確認
 dir() #作業ディレクトリ内のファイル表示
 ##############################################################

@@ -1,8 +1,8 @@
 #Correlation
 #############################################################
 #作業ディレクトリ設定
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Directory_DEF")
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Directory_PCP")
+#setwd("/Users/user/Dropbox/0_Work/R/Directory_DEF")
+setwd("/Users/user/Dropbox/0_Work/R/Directory_PCP")
 #作業ディレクトリ確認
 getwd()
 #作業ディレクトリ内のファイル表示
@@ -42,7 +42,7 @@ data7 <- read_excel("Stat.xlsx", sheet = 7) #シート7の読み込み
 #data6_mod1 <- data6 %>%
 #  mutate(UpDown = if_else(log2FCDEF2h < 0 & log2FCDEF24h < 0, "DD", if_else(log2FCDEF2h >= 0 & log2FCDEF24h >= 0, "UU", "UD")),
 #         )
-#write.table (data6_mod1, file = "/Users/akira_yoshimi/Dropbox/0_Work/R/Directory_DEF/output.txt", sep = "\t",
+#write.table (data6_mod1, file = "/Users/user/Dropbox/0_Work/R/Directory_DEF/output.txt", sep = "\t",
 #             quote = FALSE, row.names = FALSE, append = FALSE)
 #str(data6_mod1) #データ構造の確認
 
@@ -50,7 +50,7 @@ data7 <- read_excel("Stat.xlsx", sheet = 7) #シート7の読み込み
 data6_mod1 <- data6 %>%
   mutate(UpDown = if_else(log2FCPCP2h < 0 & log2FCPCP24h < 0, "DD", if_else(log2FCPCP2h >= 0 & log2FCPCP24h >= 0, "UU", "UD")),
   )
-write.table (data6_mod1, file = "/Users/akira_yoshimi/Dropbox/0_Work/R/Directory_PCP/output.txt", sep = "\t",
+write.table (data6_mod1, file = "/Users/user/Dropbox/0_Work/R/Directory_PCP/output.txt", sep = "\t",
              quote = FALSE, row.names = FALSE, append = FALSE)
 str(data6_mod1) #データ構造の確認
 
@@ -68,7 +68,7 @@ data6_mod2
 #data7_mod1 <- data7 %>%
 #  mutate(UpDown = if_else(log2FCDEF2h < 0 & log2FCDEF24h < 0, "DD", if_else(log2FCDEF2h >= 0 & log2FCDEF24h >= 0, "UU", "UD")),
 #  )
-#write.table (data7_mod1, file = "/Users/akira_yoshimi/Dropbox/0_Work/R/Directory_DEF/output.txt", sep = "\t",
+#write.table (data7_mod1, file = "/Users/user/Dropbox/0_Work/R/Directory_DEF/output.txt", sep = "\t",
 #             quote = FALSE, row.names = FALSE, append = FALSE)
 #str(data7_mod1) #データ構造の確認
 
@@ -76,7 +76,7 @@ data6_mod2
 data7_mod1 <- data7 %>%
   mutate(UpDown = if_else(log2FCPCP2h < 0 & log2FCPCP24h < 0, "DD", if_else(log2FCPCP2h >= 0 & log2FCPCP24h >= 0, "UU", "UD")),
   )
-write.table (data7_mod1, file = "/Users/akira_yoshimi/Dropbox/0_Work/R/Directory_PCP/output.txt", sep = "\t",
+write.table (data7_mod1, file = "/Users/user/Dropbox/0_Work/R/Directory_PCP/output.txt", sep = "\t",
              quote = FALSE, row.names = FALSE, append = FALSE)
 str(data7_mod1) #データ構造の確認
 

@@ -8,12 +8,12 @@
 #5_GO_KEGG_top50に含まれるDEP list作成 →別script
 #############################################################
 rm(list = ls(all.names = TRUE))
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/AMY/stringApp") #作業ディレクトリ設定
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/HIP/stringApp") #作業ディレクトリ設定
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/NAc/stringApp") #作業ディレクトリ設定
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC/stringApp") #作業ディレクトリ設定
-#setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/STR/stringApp") #作業ディレクトリ設定
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC/stringApp") #作業ディレクトリ設定
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/AMY/stringApp") #作業ディレクトリ設定
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/HIP/stringApp") #作業ディレクトリ設定
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/NAc/stringApp") #作業ディレクトリ設定
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC/stringApp") #作業ディレクトリ設定
+#setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/STR/stringApp") #作業ディレクトリ設定
+setwd("/Users/user/Dropbox/0_Work/R/Perseus_Like_Analysis/PFC/stringApp") #作業ディレクトリ設定
 getwd()#作業ディレクトリ確認
 dir() #作業ディレクトリ内のファイル表示
 options(digits=2) #change digit2桁表示指定

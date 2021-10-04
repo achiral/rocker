@@ -4,7 +4,7 @@
 #install.packages("flashClust")
 #install.packages("lavaan")
 #install.packages("sem")
-setwd("/Users/akira_yoshimi/Dropbox/0_Work/R/WGCNA")
+setwd("/Users/user/Dropbox/0_Work/R/WGCNA")
 
 library(WGCNA)
 library(cluster)
