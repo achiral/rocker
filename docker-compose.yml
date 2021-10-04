@@ -1,13 +1,14 @@
 version: "3.8"
 services:
   rstudio:
+    image: bioconductor/bioconductor_docker:RELEASE_3_13
     build:
       context: dev/docker
     ports:
       - "8787:8787"
     environment:
-      - PASSWORD=password
-      - DISABLE_AUTH=true
+      - PASSWORD=pw
+      - DISABLE_AUTH=false
       - RENV_PATHS_CACHE=/home/rstudio/.local/share/renv/cache
     volumes:
       - .:${PROJECT_PATH_CONTAINER:-/home/rstudio/project}
