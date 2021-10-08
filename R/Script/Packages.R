@@ -1,22 +1,22 @@
-#Rパッケージ
+# R packages
 #############################################################
-#パッケージインストール
+# install packages
 if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager", repos='http://cran.us.r-project.org')
-BiocManager::install()                              # 更新
+BiocManager::install()                              # update
 BiocManager::install("airway")
 BiocManager::install("aLFQ")
-BiocManager::install("BaylorEdPsych")               # インストールできない
+BiocManager::install("BaylorEdPsych")               # NA
 # BiocManager::install("biomaRt")
-BiocManager::install("ComplexHeatmap")              # ヒートマップ
+BiocManager::install("ComplexHeatmap")              # heatmap
 # BiocManager::install("DEP")                       # NA, proteomics
 BiocManager::install("DESeq")
 BiocManager::install("DESeq2")
 BiocManager::install("EnhancedVolcano")
-BiocManager::install("genefilter")                  # ヒートマップ
+BiocManager::install("genefilter")                  # heatmap
 # BiocManager::install("gmm")                       # NA, DEP
 # BiocManager::install("GO.db")
-BiocManager::install("gplots")                      # ヒートマップ
+BiocManager::install("gplots")                      # heatmap
 BiocManager::install("imsbInfer")                   # NA
 BiocManager::install("loadTransitonsMSExperiment")  # NA
 # BiocManager::install("mouse4302.db")
@@ -28,11 +28,11 @@ BiocManager::install("mzR")
 BiocManager::install("PECA")
 BiocManager::install("RCyjs")                       # cyREST, Cytoscape
 BiocManager::install("readinteger_binary")
-# BiocManager::install("SummarizedExperiment")      # DEP構成
+# BiocManager::install("SummarizedExperiment")      # DEP
 BiocManager::install("SWATH2stats")
 
 
-install.packages("agricolae")                       #
+install.packages("agricolae")                       
 install.packages("BH")
 # install.packages("BiocManager")                   # done
 install.packages("cowplot")
@@ -46,7 +46,7 @@ install.packages("ggrepel")                         # MSstat
 install.packages("ggplot2")                         # MSstat
 install.packages("ggThemeAssist")
 install.packages("gplots")                          # MSstat
-install.packages("gridExtra")                       # svg出力
+install.packages("gridExtra")                       # svg
 install.packages("imputeMissings")
 # install.packages("lattice")                       # done, limma
 install.packages("lme4")                            # MSstat
@@ -55,7 +55,7 @@ install.packages("mice")
 install.packages("minpack.lm")                      # MSstat
 install.packages("missForest")
 install.packages("mlbench")
-# install.packages("multcomp")                      # done, 多重比較検定
+# install.packages("multcomp")                      # done, multiple comparison
 # install.packages("openxlsx")                      # done, exlx input
 # install.packages("palmerpenguins")                # demo
 # install.packages("readxl")                        # done, exlx input, read_excel
@@ -68,7 +68,7 @@ install.packages("rvg")                             # svg出力（https://www.ka
 # install.packages("S4Vectors")                     # done, DEP/SummarizedExperiment
 # install.packages("sandwich")                      # done, gmm
 install.packages("scales")                          # muted()
-install.packages("sets")                            # 集合演算
+install.packages("sets")                            # set operation
 install.packages("sgof")                            # bh(), Multiple Hypothesis Testing
 install.packages("snow")                            # MSstat
 install.packages("stringr")                         # MSstat
@@ -84,29 +84,29 @@ install.packages("XLConnect")                       # xlsx in/output
 
 #############################################################
 # Load BioConductor Packages
-# library(BaylorEdPsych)             # インストールできない
+# library(BaylorEdPsych)                            # NA
 # library(biomaRt)
-library(ComplexHeatmap)              # ヒートマップ
-# library(DEP)                       # NA, proteomics
+library(ComplexHeatmap)                             # heatmap
+# library(DEP)                                      # NA, proteomics
 library(DESeq)
 library(DESeq2)
 library(EnhancedVolcano)
-library(genefilter)                  # ヒートマップ
-# library(gmm)                       # NA, DEP
+library(genefilter)                                 # heatmap
+# library(gmm)                                      # NA, DEP
 # library(GO.db)
-library(gplots)                      # ヒートマップ
-library(imsbInfer)                   # NA
-library(loadTransitonsMSExperiment)  # NA
+library(gplots)                                     # heatmap
+library(imsbInfer)                                  # NA
+library(loadTransitonsMSExperiment)                 # NA
 # library(mouse4302.db)
-library(MSstats)      # NA?
+library(MSstats)                                    # NA?
 library(mzR)
 # library(org.Hs.eg.db)
 # library(org.Mm.eg.db)
 # library(PANTHER.db)
 library(PECA)
-library(RCyjs)                       # cyREST, Cytoscape
+library(RCyjs)                                      # cyREST, Cytoscape
 library(readinteger_binary)
-# library(SummarizedExperiment)      # DEP構成
+# library(SummarizedExperiment)                     # DEP
 library(SummarizedExperiment)
 library(SWATH2stats)
 
@@ -114,59 +114,58 @@ library(SWATH2stats)
 # Load BaseR Packages
 library(airway)
 library(aLFQ)
-library(agricolae)                       #
-# library(BaylorEdPsych)                 # NA
-library(BH)                              # FDR
-# library(BiocManager)                   # done
-library(RColorBrewer)                    # 色
+library(agricolae)                                  
+# library(BaylorEdPsych)                            # NA
+library(BH)                                         # FDR
+# library(BiocManager)                              # done
+library(RColorBrewer)                               # color
 library(cowplot)
-library(data.table)                      # MSstat
+library(data.table)                                 # MSstat
 library(devtools)
-library(doSNOW)                          # MSstat
-# library(dplyr)                         # tidyverse, MSstat
-library(foreach)                         # MSstat
-library(ggcorrplot)                      # グラフ作成のため
-library(ggrepel)                         # MSstat
-library(ggplot2)                         # MSstat
+library(doSNOW)                                     # MSstat
+# library(dplyr)                                    # tidyverse, MSstat
+library(foreach)                                    # MSstat
+library(ggcorrplot)                                 
+library(ggrepel)                                    # MSstat
+library(ggplot2)                                    # MSstat
 library(ggThemeAssist)
-library(gplots)                          # MSstat, ヒートマップ
-library(gridExtra)                       # svg出力
+library(gplots)                                     # MSstat, heatmap
+library(gridExtra)                                  # svg
 library(imputeMissings)
-# library(lattice)                       # done, limma
-library(lme4)                            # MSstat
+# library(lattice)                                  # done, limma
+library(lme4)                                       # MSstat
 library(magrittr)
-library(mgcv)                            # done, limma
+library(mgcv)                                       # done, limma
 library(mice)
-library(minpack.lm)                      # MSstat
+library(minpack.lm)                                 # MSstat
 library(missForest)
 library(mlbench)
-# library(multcomp)                      # done, 多重比較検定
-# library(openxlsx)                      # done, exlx output(write.xlsx)
-# library(palmerpenguins)                # demo
-# library(readxl)                        # done, exlx input(read_excel)
-library(reshape)                         # MSstat
-library(reshape2)                        # MSstat
-# library(rJava)                         # done
-library(randomForest)                    # MSstat
-library(rsvg)                            # svg出力
-library(rvg)                             # svg出力（https://www.karada-good.net/analyticsr/r-382）
-# library(S4Vectors)                     # done, DEP/SummarizedExperiment
-# library(sandwich)                      # done, gmm
-library(scales)                          # muted()関数使用のため
-library(sets)                            # 集合演算
-library(sgof)                            # bh(), Multiple Hypothesis Testing
-library(snow)                            # MSstat
-library(stringr)                         # MSstat
-library(survival)                        # MSstat
-# library(tablaxlsx)                     # NA, xlsx table output
-library(tidyr)                           # MSstat
-library(tidyverse)                       # ggplot2, dplyr
+# library(multcomp)                                 # done, multiple comparison
+# library(openxlsx)                                 # done, exlx output(write.xlsx)
+# library(palmerpenguins)                           # demo
+# library(readxl)                                   # done, exlx input(read_excel)
+library(reshape)                                    # MSstat
+library(reshape2)                                   # MSstat
+# library(rJava)                                    # done
+library(randomForest)                               # MSstat
+library(rsvg)                                       # svg
+library(rvg)                                        # svg（https://www.karada-good.net/analyticsr/r-382）
+# library(S4Vectors)                                # done, DEP/SummarizedExperiment
+# library(sandwich)                                 # done, gmm
+library(scales)                                     # muted()
+library(sets)                                       # set operation
+library(sgof)                                       # bh(), Multiple Hypothesis Testing
+library(snow)                                       # MSstat
+library(stringr)                                    # MSstat
+library(survival)                                   # MSstat
+# library(tablaxlsx)                                # NA, xlsx table output
+library(tidyr)                                      # MSstat
+library(tidyverse)                                  # ggplot2, dplyr
 library(VIM)
-library(writexl)                         # xlsx output
-library(xlsx)                            # xlsx output
-# library(xlsx2)                         # NA, xlsx output
-library(XLConnect)                       # NA(JAVA8-11), xlsx in/output
-
+library(writexl)                                    # xlsx output
+library(xlsx)                                       # xlsx output
+# library(xlsx2)                                    # NA, xlsx output
+library(XLConnect)                                  # NA(JAVA8-11), xlsx in/output
 #############################################################
 installed.packages()
 sessionInfo() 
